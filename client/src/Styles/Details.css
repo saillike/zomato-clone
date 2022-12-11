@@ -1,0 +1,153 @@
+
+
+.tabs {
+    position: relative;
+    min-height: 200px;
+    clear: both;
+    margin: 50px 0 25px;
+    background: white;
+
+}
+
+.tab {
+    float: left;
+}
+
+.tab label {
+    background: white;
+    padding: 5px;
+    margin-left: -1px;
+    position: relative;
+    left: 1px;
+    top: -30px;
+    margin-right: 40px;
+    cursor: pointer;
+    color: #192F60;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.tab [type=radio] {
+    display: none;
+}
+
+
+
+[type=radio]:checked~label {
+    background: white;
+    border-bottom: 1px solid white;
+    z-index: 2;
+    border-bottom: solid 3px red;
+}
+
+[type=radio]:checked~label~.content {
+    z-index: 1;
+    opacity: 1;
+}
+
+.restaurant-img {}
+
+.restaurant-img button {
+    position: absolute;
+    left: 71%;
+    top: 50%;
+    width: 250px;
+    height: 40px;
+    opacity: 0.6;
+    border-radius: 1px;
+    background-color: #ffffff;
+    font-size: 16px;
+    color: #192F60;
+    font-weight: 600;
+    line-height: 1.2;
+    border: 1px solid #fff;
+}
+
+.restaurant-img button:focus {
+    border: 1px solid #fff;
+}
+
+/* width: 298px; */
+
+.heading-overview {
+    height: 43px;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+
+.content {
+    position: absolute;
+    top: 7px;
+    left: 0;
+    padding-top: 25px;
+    right: 0;
+    bottom: 0;
+    border-top: 1px solid gray;
+    opacity: 0;
+    height: 300px;
+}
+
+.resturantname{
+    padding-top: 16px;
+    padding-bottom: 10px;
+    color: #192F60;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+    }
+    
+    .col-lg-3 .btn-order{margin-top: 16px;
+        margin-bottom: 10px;}
+
+.detailsHead {
+    height: 25px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+    position: relative;
+    margin-top: 25px;
+}
+
+.value {
+    height: 30px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192F60;
+    position: relative;
+}
+
+.carousel-slider {
+    width: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+    .restaurant-img button {
+        position: absolute;
+        left: 55%;
+        top: 85%;
+        width: 200px;
+        height: 35px;
+        opacity: 0.6;
+        border-radius: 3px;
+        background-color: #ffffff;
+    }
+}

@@ -1,0 +1,216 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+
+body{
+    
+    background-color: #fff;
+    padding-bottom: 50px;
+}
+.aboutres {
+    width: 181px;
+    height: 31px;
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+    position: relative;
+}
+
+
+.placehead{
+padding-top: 50px;
+padding-bottom: 50px;
+color: #192F60;
+font-weight: 600;
+font-size: 36px;
+line-height: 50px;
+}
+
+.fliter {
+font-size: 18px;
+line-height: 27px;
+font-weight: 600;
+color: #192F60;
+}
+
+.left-side label{
+font-size: 14px;
+line-height: 21px;
+color: #8C96AB;
+
+}
+
+.right-side h6 {
+font-size: 20px;
+line-height: 30px;
+font-weight: 600;
+color: #192F60;
+margin-bottom: 0px;
+margin-top: 15px;
+font-family: 'Poppins', sans-serif;
+}
+
+
+.navbar{
+    /*background-color: #CE0505*/
+ }
+ .head1{
+    background-color: #CE0505;
+ }
+.rounded-circle1{width: 52px; height: 52px;background-color: #FFFFFF; color: #EB2929;padding: 8px 12px;
+    border-radius: 25px;}
+
+.nav-link.login{color: #fff;margin-right: 20px;cursor: pointer; }
+
+.nav-link.create{color: #fff;border:1px solid #fff; border-radius:2px;cursor: pointer;}
+
+.resturant-name{
+    color: #192F60;
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 0px;
+    text-transform:uppercase;
+    }
+
+.resturant-add{
+color: #636F88;
+font-size: 15px;
+line-height: 25px;
+margin-bottom: 0px;
+}
+.resturant-detail{
+    background-color:#fff;
+    padding: 22px 22px 25px 40px;
+    margin-bottom:35px;
+    }
+    .resturant-detail .text-uppercase {
+        color: #636F88;
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .resturant-detail .col-9 {
+        color: #192F60;
+        font-size: 15px;
+        line-height: 22px;
+    }
+.container .left-side {
+    padding: 25px 0px 25px 30px; }
+
+.container .right-side{ margin-left: 30px;}
+
+.rounded-corner{border-radius: 1.9rem;}
+
+.left-side p {
+font-size: 14px;
+line-height: 21px;
+color: #192F60;
+}
+
+.mb-3.location{
+height: 40px;
+width: 208px;
+font-weight: 100;
+font-size: 14px;
+color: #000;
+}
+
+.pagination{
+margin-left: 6px;
+margin-right: 6px;
+border-radius: 7px;
+}
+
+.page-link{
+border-radius: 7px;
+font-size: 20px;
+padding: 6px 18px;
+}
+
+.dish-type {
+    margin-top: 31px;
+}
+.cost-for {
+    margin-top: 31px;
+}
+.price-filter {
+    margin-top: 31px;
+}
+.page-navigation{}
+
+.page-navigation ul li {
+    margin-right: 7px;
+    margin-left: 7px;
+    /* border: 1px solid #8C96AB; */
+}
+.page-navigation ul li.active>.page-link{
+    background-color: #8C96AB;
+    border-color: #8C96AB;
+    color: #fff;
+}
+.page-navigation ul li>.page-link{
+    border-color: #8C96AB;
+   color: #8C96AB;
+}
+.avatar {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.loginButton {
+    width: 150px;
+    padding: 15px 25px;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.google {
+    color: #df4930;
+    border: 2px solid #df4930;
+    border-radius: 8px;
+    margin-top: 1rem;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.google img {
+    margin-right: 30px;
+}
+
+.github {
+    color: #5a4c4c;
+    border: 2px solid #2a1f1f;
+    border-radius: 8px;
+    margin-top: 2rem;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.github img {
+    margin-right: 30px;
+}
