@@ -17,7 +17,7 @@ const paymentRoutes = require("./Controller/payment");
 dotenv.config();
 
 const port = process.env.PORT || 5600;
-const hostname = 'localhost';
+const hostname = 'zomato-clone-4um6uvavb-saillike.vercel.app';
 const dbUrl = 'mongodb://127.0.0.1:27017/zomato';
 const atlasDbUrl = 'mongodb+srv://shailendra:HdcWIDNIxNxIkC82@cluster0.uo0vhft.mongodb.net/zomato?retryWrites=true&w=majority'
 
