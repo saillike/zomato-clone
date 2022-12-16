@@ -17,13 +17,13 @@ const paymentRoutes = require("./Controller/payment");
 dotenv.config();
 
 const port = process.env.PORT || 5600;
-const hostname = 'zomato-clone-4um6uvavb-saillike.vercel.app';
+const hostname = 'https://zomato-clone-dusky.vercel.app';
 const dbUrl = 'mongodb://127.0.0.1:27017/zomato';
 const atlasDbUrl = 'mongodb+srv://shailendra:HdcWIDNIxNxIkC82@cluster0.uo0vhft.mongodb.net/zomato?retryWrites=true&w=majority'
 
 
 const corsOptions ={
-    origin:'http://localhost:4000', 
+    origin:'https://zomato-clone-q2zh.vercel.app', 
     credentials:true,            //access-control-allow-credentials:true
     optionSuccessStatus:200
 }
