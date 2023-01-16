@@ -86,7 +86,7 @@ class Details extends React.Component {
     }
     initPayment = (data) => {
 		const options = {
-			key: "rzp_test_IHqyQthnkw5VUL",
+			key: "rzp_test_47LmIYC1yfkL0p",
 			amount: data.amount,
 			currency: data.currency,
 			description: "Test Transaction",
@@ -122,7 +122,7 @@ class Details extends React.Component {
 
     render() {
         const { restaurant, galleryModalIsOpen, menuItemsModalIsOpen, menuItems, subTotal, formModalIsOpen } = this.state;
-        const { username, email, address, contact, errors } = this.state;
+       // const { username, email, address, contact, errors } = this.state;
         return (
             <div className="container-fluid">
                 <nav class="navbar navbar-expand-sm navbar-dark">

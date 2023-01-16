@@ -16,7 +16,7 @@ class Home extends React.Component{
     componentDidMount(){
         sessionStorage.clear();
         axios({
-            url: 'https://zomato-clone-dusky.vercel.app/locations',
+            url: 'http://localhost:5600/locations',
             method: 'GET',
             headers: { 'Content-Type': 'application/JSON'}
         })
@@ -26,7 +26,7 @@ class Home extends React.Component{
         .catch(err => console.log(err))
 
         axios({
-            url: 'https://zomato-clone-dusky.vercel.app/mealtypes',
+            url: 'http://localhost:5600/mealtypes',
             method: 'GET',
             headers: { 'Content-Type': 'application/JSON'}
         })

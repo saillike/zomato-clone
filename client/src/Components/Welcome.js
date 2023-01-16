@@ -21,7 +21,7 @@ class Welcome extends React.Component{
         sessionStorage.setItem('locationId', locationId);
 
         axios({
-            url: `https://zomato-clone-dusky.vercel.app/restaurants/${locationId}`,
+            url: `http://localhost:5600/restaurants/${locationId}`,
             method: 'GET',
             headers: { 'Content-Type': 'application/json' }
         })
